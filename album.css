@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+  }
+  
+  nav {
+    background-color: #222;
+    color: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .home-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .home-icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  section {
+    padding: 32px;
+    background-color: #181818;
+  }
+  
+  .album-info {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  
+  .album-info p {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: #b0b0b0;
+  }
+
+  .album-info h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #fff;
+  }
+  
+  .album-info img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .tracklist {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .track {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 16px;
+    font-size: 12px;
+  }
+  
+  .track img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 16px;
+  }
+  
+
+  
